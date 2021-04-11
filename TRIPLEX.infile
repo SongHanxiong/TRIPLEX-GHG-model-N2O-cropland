@@ -1,0 +1,22 @@
+0         ! irestart   0: not a restart run  1: restart run
+1840     ! iyear0     initial year of simulation (don't change for restart)
+176       ! 257       ! nrun       number of years in this simulation (change for restart)
+1960      ! iyranom    year to start reading anomalies (don't chng for restart)
+55       ! nanom      number of years in the anomaly files (ditto) for current version fertilizer only
+1901      ! iyrdaily   year to start reading daily data (ditto)
+1         ! soilcspin  0: no soil spinup, 1: acceleration procedure used 
+1         ! iyearout   0: no yearly output, 1: yearly output
+1         ! imonthout  0: no monthly output, 1: monthly output
+1         ! idailyout  0: no daily output, 1: daily output
+1         ! isimveg    0: static veg, 1: dynamic veg, 2: dynamic veg-cold start
+0         ! isimfire   0: fixed fire, 1: dynam fire
+0         ! isim_ac    0: no age-class dynamics  1: age-class dynamics enabled
+1         ! isimco2    0: fixed co2,  1: ramped co2 2: constant CO2 from 2009
+0.000280  ! co2init    initial co2 concentration in mol/mol (real)
+0.209000  ! o2init     initial o2 concentration in mol/mol (real)
+3600.0    ! dtime      time step in seconds
+0         ! idiag      0: no diagnostic output, 1-10 # of files to output
+89.75     ! snorth     northern latitude for subsetting in/output
+-89.75    ! ssouth     southern latitude for subsetting in/output
+-179.75   ! swest      western longitude for subsetting in/output
+179.75    ! seast      eastern longitude for subsetting in/output

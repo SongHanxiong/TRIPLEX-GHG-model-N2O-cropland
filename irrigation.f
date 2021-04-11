@@ -9,10 +9,10 @@ c 'wpud' which is going back to soilcli module in soil.f file (subroutine lsxmai
 c NOTE: This subroutine is called in hourly loop of the main program.
 
       include 'implicit.h'
-      include 'comsoi.h'
-      include 'comghg.h'
+      include 'compar.h'
+      include 'comatm.h'
+      include 'comdiag.h'
       include 'comagrp.h'
-
 c
       integer i,        ! gridpoint for which
      >        iyear,    ! current calendar year

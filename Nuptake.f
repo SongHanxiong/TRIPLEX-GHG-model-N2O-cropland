@@ -6,9 +6,11 @@ c This routine is constructed to improve the simulation of the process of plant
 c uptake soil inorganic N.  The major framworks are adapted from original TRIPLEX-GHG and DNDC model.
 
       include 'implicit.h'
-      include 'comsoi.h'
-      include 'comghg.h'
+      include 'compar.h'
+      include 'comatm.h'
+      include 'comdiag.h'
       include 'comagrp.h'
+      
 c
       integer i,        ! gridpoint for which
      >        iyear,    ! current calendar year

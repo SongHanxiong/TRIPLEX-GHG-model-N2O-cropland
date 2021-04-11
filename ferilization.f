@@ -6,8 +6,6 @@ c fertilizer application to soil. This subroutine is called in the GHG submodule
 c The major framworks are adapted from DNDC model.
 
       include 'implicit.h'
-      include 'comsoi.h'
-      include 'comghg.h'
       include 'comagrp.h'
 
 c

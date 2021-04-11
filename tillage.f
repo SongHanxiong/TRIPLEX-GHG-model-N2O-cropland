@@ -9,8 +9,9 @@ c top 4 layers of soil profile and send those updated value in related submodule
 c NOTE: This subroutine is called in hourly loop of the main program.
 
       include 'implicit.h'
-      include 'comsoi.h'
-      include 'comghg.h'
+      include 'compar.h'
+      include 'comatm.h'
+      include 'comdiag.h'
       include 'comagrp.h'
       
 c

@@ -8,11 +8,9 @@ c with these two processes. The major framworks are adapted from DNDC model.
 
       include 'implicit.h'
       include 'compar.h'
-      include 'comsum.h'
-      include 'comveg.h'
-      include 'comsoi.h'
-      include 'comghg.h'
-      include 'combcs.h'
+      include 'comatm.h'
+      include 'comdiag.h'
+      include 'comagrp.h'
 
 c
       integer i,        ! gridpoint for which
